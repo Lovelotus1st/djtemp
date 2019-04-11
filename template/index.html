@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Template</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+
+</head>
+<body>
+<h1>Hello From index.html !!</h1>
+<h3>Here we learned template-tagging, Static files(images and CSS) in this section </h3>
+<h3><a href="/admin">Navigate to Admin or App from here</a></h3>
+<p>userId: user<br> password: Password</p>
+{{ any_key }} <br>
+<img src= "{% static "images/sample.gif" %}" alt="This will appear if no image found">
+<buttons><a href="/admin">Admin</a></buttons>
+</body>
+</html>

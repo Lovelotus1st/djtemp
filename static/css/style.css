@@ -1,0 +1,12 @@
+h1{
+color: red;
+text-align: center;
+}
+body{
+background-color: lightblue;
+}
+img {
+  display: block;
+  margin-left: 50px;
+  width: 400px;
+}
